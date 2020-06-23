@@ -4,6 +4,8 @@ import { formatTweet, formatDate } from '../utils/helpers'
 
 import { TiArrowBackOutline, TiHeartOutline, TiHeartFullOutline} from 'react-icons/ti/index'
 
+import { handleToggleTweet } from '../actions/tweets'
+
 class Tweet extends Component {
   handleLike = (e) => {
     e.preventDefault()
