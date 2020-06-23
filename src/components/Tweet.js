@@ -11,6 +11,13 @@ class Tweet extends Component {
     e.preventDefault()
 
     // todo: Handle Like Tweet
+    const { dispatch, tweet, authedUser } = this.props
+
+    dispatch(handleToggleTweet({
+      id: tweet.id,
+      hasLiked: tweet.hasLiked,
+      authedUser
+    }))
   }
   toParent = (e, id) => {
     e.preventDefault()
