@@ -13,7 +13,7 @@ class NewTweet extends Component {
 
 		this.setState(() => ({
 			text: "",
-			toHome: id ? false : true,
+
 		}));
 	};
 	handleSubmit = (e) => {
@@ -28,6 +28,7 @@ class NewTweet extends Component {
 		dispatch(handleAddTweet(text, id));
 		this.setState(() => ({
 			text: "",
+			toHome: id ? false : true,
 		}));
 	};
 	render() {
