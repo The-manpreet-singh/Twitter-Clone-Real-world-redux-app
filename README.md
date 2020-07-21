@@ -1,6 +1,6 @@
-# twitter-clone-real-world-redux Chirper Project
+# Twitter-clone-real-world-redux Chirper Project
 
-## live url- https://twitter-clone-real-world-by-manpreet.netlify.app/
+## Live url- https://twitter-clone-real-world-by-manpreet.netlify.app/
 
 In this project we tweet the post, reply the any comments also like the post of users, this is real world project, I used react, redux, middleware, redux-thunk.
 
